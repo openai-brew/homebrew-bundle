@@ -1,9 +1,9 @@
 class Crowdstrikeupdate < Formula
     desc "A manual ClowdStrike update to be installed by support"
     homepage "https://github.com/openai-brew/"
-    url "https://github.com/openai-brew/bundle/releases/download/v1.15/crowdstrikeupdate-1.15.tar.gz"
-    sha256 "00b5684003ce65651addbacb599095b9cb9dc6b0624447e6f75eca91c5acde34"
-    version "1.15"
+    url "https://github.com/openai-brew/homebrew-bundle/releases/download/v1.16/crowdstrikeupdate-1.16.tar.gz"
+    sha256 "a4f3382e1d0edc7cf79545cb7e8f5dc998c789117d9ef5816c72555288e68a86"
+    version "1.16"
 
     def install
         bin.install Dir["*"]
